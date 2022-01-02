@@ -27,7 +27,7 @@ const AuthContext = createContext({} as AuthContextData);
 
 const twitchEndpoints = {
   authorization: 'https://id.twitch.tv/oauth2/authorize',
-  revocation: 'https://id.twitch.tv/oauth2/revoke'
+  revocation: 'https://id.twitch.tv/oauth2/revoke' 
 };
 
 function AuthProvider({ children }: AuthProviderData) {
